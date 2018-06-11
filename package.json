@@ -1,0 +1,33 @@
+{
+  "name": "profile-page",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "classie": "1.0.0",
+    "modernizr": "3.6.0",
+    "prefix": "1.0.0",
+    "prop-types": "15.6.1",
+    "react": "16.3.2",
+    "react-addons-css-transition-group": "15.6.2",
+    "react-dom": "16.3.2",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "1.1.4",
+    "react-sidebar": "2.3.2",
+    "react-star-rating-component": "1.4.1",
+    "react-tag-input": "5.0.2",
+    "reactstrap": "6.0.1",
+    "switch": "0.0.0",
+    "yepnope": "1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
