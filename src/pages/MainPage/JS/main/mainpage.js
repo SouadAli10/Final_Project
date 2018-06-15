@@ -8,7 +8,7 @@ const Mainpage = () => (
     <div id="site__bg" />
     <div className="main">
       <section className="site">
-        <h1 className="site__title site__title--separator">Dropcast</h1>
+        <h1 className="site__title site__title--separator">Skillder</h1>
         <p className="site__description">
           Teach and Learn, Trade your skills and help your community{" "}
         </p>

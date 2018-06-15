@@ -5,6 +5,8 @@ import EditPage from "./pages/EditPage";
 import Profile from "./pages/Profile";
 import Sign_in from "./pages/Sign_In_Page";
 import Log_in from "./pages/Log_In_Page";
+import TagePage from "./pages/Tags.js";
+import ComputerScience from "./pages/ExamplePage";
 class Home extends React.Component {
   state = {
     ProfileImageSrc:
@@ -25,6 +27,12 @@ class Home extends React.Component {
           <Route exact path="/" render={() => <Main />} />
           <Route exact path="/sign_in" render={() => <Sign_in />} />
           <Route exact path="/log_in" render={() => <Log_in />} />
+          <Route exact path="/tags" render={() => <TagePage />} />
+          <Route
+            exact
+            path="/tags/Computer_Science"
+            render={() => <ComputerScience />}
+          />
 
           <Route
             exact
